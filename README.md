@@ -1,7 +1,8 @@
 # Egeland
+
  После клонирование запустите composer update <br>
  
- Настройте .env файл, были созданы несколько таблиц для тестирование,запустите php artisan migrate <br>
+ Настройте .env файл, были созданы несколько таблиц для тестирование, запустите php artisan migrate <br>
  
  Чтобы таблицы не были пустыми, запустите php artisan db:seed, добавяться несколько записов во все таблицы. <br>
  
@@ -20,8 +21,7 @@
  App\Model\Question<br>
  App\Model\QuestionType<br>
  App\Http\Controllers\WelcomeController<br>
- App\Http\Controllers\UserController<br>
- 
+ App\Http\Controllers\UserController<br> 
  Resource\views\welcome.blade<br>
  
  
